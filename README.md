@@ -1,8 +1,13 @@
-#  DekiValidator
+#  Validator
 
-Validate email:
+Validates values
+
+Current available validators:
+- Email address validator
+
+## Email Validator
+
 ```swift
-let emailToCheck = "someone@gmail.com"
-let isEmail = DekiValidator.validateEmail(emailToCheck)
+let email = "john@doe.com"
+let isEmail = DekiValidator.validateEmail(email)
 ```
-
